@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct OfflineCaretakerBleHelperApp: App {
+    @StateObject private var bleManager = BlePeripheralManager()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(manager: bleManager)
         }
     }
 }

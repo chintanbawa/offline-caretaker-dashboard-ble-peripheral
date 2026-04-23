@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+
+# Xcode workspace user data
+*.xcworkspace/xcuserdata/
+
+# Build products
+build/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives and export artifacts
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Environment / local config
+.env
+.env.*
+!.env.example
+
+# Local app config overrides
+Config.local.plist
+*.local.json
+
+# Temporary files
+*.swp
+*.tmp
+*.log
